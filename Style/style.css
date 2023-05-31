@@ -144,6 +144,9 @@ body {
 .skills ul {
   list-style: none;
   display: flex;
+  padding: 10px 15px 15px 15px;
+  margin: 0 5px 0 5px;
+  background-color: #78BCC4;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
