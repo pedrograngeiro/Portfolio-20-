@@ -241,6 +241,17 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }	
 
+.meio-container-mac {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 120vh;
+  margin: 30px auto;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}	
+
 
 .card {
   background-color: #002c3E;
