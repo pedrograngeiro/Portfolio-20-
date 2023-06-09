@@ -228,6 +228,18 @@ body {
   margin-left: -1em;
 }
 
+.card {
+  background-color: #002c3E;
+  cursor: pointer;
+  height: 240px;
+  position: relative;
+  width: 30vh;
+  margin: 0 10px 10px 10px;
+  border-radius: inherit;
+  inset: 1px;
+  padding: 1em;
+  font-family: 'Roboto Condensed', sans-serif;
+} 
 /* Dividir o card em 3 */
 
 .meio {
@@ -240,29 +252,15 @@ body {
   padding: 0;
   font-family: 'Roboto Condensed', sans-serif;
 }	
-
 .meio-container-mac {
   display: flex;
   flex-direction: row;
+  max-width: 120vh;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 120vh;
   margin: 30px auto;
   padding: 0;
-  font-family: 'Roboto Condensed', sans-serif;
-}	
-
-
-.card {
-  background-color: #002c3E;
-  cursor: pointer;
-  height: 240px;
-  position: relative;
-  width: 30vh;
-  margin: 0 10px 10px 10px;
-  border-radius: inherit;
-  inset: 1px;
-  padding: 1em;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -271,13 +269,15 @@ body {
   flex-direction: column;
   position: relative;
   justify-content: center;
-  width: 500px;
+  width: 50vh;
   padding: 0px 0 0px 0px;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
+  margin-right: 10px; /* Adicionei essa margem para criar espaço entre os cards */
+  margin-bottom: 10px; /* Adicionei essa margem para criar espaço entre os cards */
 }
 
 .card-body-mac {
