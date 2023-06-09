@@ -1,3 +1,11 @@
-// document.getElementsByClassName("skills")[0].style.display = "none";
+const openModalBtn = document.getElementById("open-modal");
+const modal = document.getElementById("modal");
+const closeModalBtn = document.getElementsByClassName("close")[0];
 
-// when mouse over the skills li, the background color will change on all li
+openModalBtn.addEventListener("click", () => {
+  modal.style.display = "block";
+});
+
+closeModalBtn.addEventListener("click", () => {
+  modal.style.display = "none";
+});
