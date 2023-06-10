@@ -311,19 +311,21 @@ body {
 .modal-content {
   background-color: #fefefe;
   margin: 10% auto;
-  padding: 20px;
   border: 1px solid #888;
   width: 80%;
+  border-radius: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
 .close {
   color: #aaa;
-  float: right;
-  font-size: 28px;
+  float: left;
+  font-size: 16px;
   font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
 }
+
 
 .close:hover,
 .close:focus {
@@ -331,4 +333,10 @@ body {
   text-decoration: none;
   cursor: pointer;
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.icone-maximizar:hover,
+.icone-minimizar:focus {
+  cursor: pointer;
+  text-decoration: none;
 }
